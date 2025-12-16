@@ -136,27 +136,44 @@ a {
   background-color: #e5e7eb;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: stretch;
   width: 100%;
 }
 
 .quote-text {
   font-size: 36px;
-  font-weight: 300;
+  font-weight: 100;
   font-style: italic;
   max-width: 800px;
+  width: 100%;
   color: #1f2937;
-  padding: 16px;
+  margin: 0 auto;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .quote-author {
   font-size: 24px;
   font-weight: 800;
   max-width: 800px;
+  width: 100%;
   text-align: right;
+  align-self: flex-end;
+  margin: 0 auto;
   color: #1f2937;
+  padding-bottom: 72px;
 }
 
+.call-aciton {
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 100px;
+  height: 150px;
+  width: 100%;
+  box-sizing: border-box;
+}
 
 .footer {
   height: 40px;
