@@ -11,8 +11,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 400px;
+  gap: 600px;
   padding: 10px 0;
+}
+
+.logo {
+  flex-shrink: 0;
 }
 
 .logo img {
@@ -27,7 +31,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 400px;
-  gap: 21px;
+  gap: 225px;
   
 }
 
@@ -36,7 +40,7 @@ body {
   flex-direction: column;
   align-items: flex-start;
   max-width: 500px;
-  gap: 8px;
+  gap: 15px;
   padding-bottom: 0px;
 }
 
@@ -105,7 +109,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 40px;
   margin-bottom: 150px;
 }
 
@@ -164,15 +168,47 @@ a {
   padding-bottom: 72px;
 }
 
-.call-aciton {
+.call-action-outer {
+  background-color: #e5e7eb;
+  width: 100%;
+}
+
+.call-action {
   background-color: #3882f6;
+  border-radius: 8px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 100px;
-  height: 150px;
-  width: 100%;
+  padding: 36px 80px;
+  width: 60%;
   box-sizing: border-box;
+  margin: 100px 0;
+}
+
+.call-text {
+  font-size: 24px;
+  font-weight: 600;
+  color: #e5e7eb;
+}
+
+.call-button {
+  flex-shrink: 0;  
+}
+
+.call-button button {
+  color: #e5e7eb;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #3882f6;
+  border:#e5e7eb solid 2px;
+  border-radius: 8px;
+  padding: 8px 32px;
+}
+
+.call-text-sub {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 8px;
 }
 
 .footer {
